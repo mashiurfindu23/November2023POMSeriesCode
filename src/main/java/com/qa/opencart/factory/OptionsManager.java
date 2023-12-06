@@ -20,6 +20,8 @@ public class OptionsManager {
 
 	public ChromeOptions getChromeOptions() {
 		co = new ChromeOptions();
+		
+	
 		if (Boolean.parseBoolean(prop.getProperty("headless").trim())) {
 			System.out.println("=========Running Chrome in headless=========");
 			co.addArguments("--headless");
