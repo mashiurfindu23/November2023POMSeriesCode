@@ -37,7 +37,7 @@ public class AccountsPage {
 
 	public String getAccPageURL() {
 		String url = eleUtil.waitForUrlContainsAndFetch(AppConstants.DEFAULT_SHORT_TIME_OUT, AppConstants.ACCIUNTS_PAGE_URL_FRACTION_VALUE);
-		System.out.println("Page URL : " + url);
+		System.out.println("Page URL is: " + url);
 		return url;
 
 	}
